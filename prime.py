@@ -1,0 +1,5 @@
+
+x= "reverse"
+print   (x[::-1]);
+
+
