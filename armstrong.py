@@ -1,13 +1,8 @@
-num = int(input("Enter a number: "))  
-sum = 0  
-temp = num  
+n = 23
+fact = 1
   
-while temp > 0:  
-   digit = temp % 10  
-   sum += digit ** 3  
-   temp //= 10  
-  
-if num == sum:  
-   print(num,"is an Armstrong number")  
-else:  
-   print(num,"is not an Armstrong number")
+for i in range(1,n+1): 
+    fact = fact * i 
+      
+print ("The factorial of 23 is : ",end="") 
+print (fact) 
